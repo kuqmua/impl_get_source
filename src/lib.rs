@@ -1,3 +1,11 @@
+#![deny(
+    clippy::indexing_slicing,
+    clippy::integer_arithmetic,
+    clippy::unwrap_used,
+    clippy::float_arithmetic
+)]
+#![allow(clippy::too_many_arguments)]
+
 use proc_macro_helpers::global_variables::hardcode::ORIGIN_NAME;
 use proc_macro_helpers::global_variables::hardcode::WRAPPER_NAME;
 
